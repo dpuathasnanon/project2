@@ -1,0 +1,78 @@
+body {
+	background: url(images/background.jpg) no-repeat center center fixed;
+	background-size: cover;
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.header-box {
+	width: 40vw;
+	height: 16vh;
+	background-color: rgba(255,246,205,0.6);
+	display: block;
+	border: 1px black solid;
+	margin: 0 0 0.75vw 0;
+}
+
+.header {
+	width: 100%;
+	height: 40%;
+	text-align: center;
+	font-family: "Special Elite";
+	font-size: 3vw;
+	padding-top: 2vh;
+}
+
+.subheader {
+	width: 100%;
+	height: 50%;
+	font-family: "Shadows Into Light Two";
+	font-size: 2vw;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+	text-align: center;
+	}
+
+.flex-container {
+	background-color: rgba(255,246,205,0.6);
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 90%;
+  height: auto;
+	justify-content: space-between;
+}
+
+.box {
+  background-color: #CCCCCC;
+  color: black;
+  width: 30%;
+  border: 1px black solid;
+  text-align: center;
+	margin: 2vh;
+}
+
+.box img {
+	width: 100%;
+	height: auto;
+	border-width: 0px 0px 1px 0px;
+	border-color: black;
+	border-style: solid;
+}
+
+.caption {
+  font-family: Lora;
+  font-size: 3.5vh;
+}
+
+.subcaption {
+	padding: 3px 0px 5px 0px;
+	font-family: "Nothing You Could Do";
+	font-size: 2.5vh;
+	font-weight: 700;
+}
